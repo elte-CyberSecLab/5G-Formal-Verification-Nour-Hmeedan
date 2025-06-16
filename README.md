@@ -65,3 +65,29 @@ To run the formal verification models in this repository, the following tools an
 ```
 
 ---
+
+---
+
+## Lemma Verification Results
+
+This section presents the visual results of verifying key security properties using Tamarin Prover.
+
+### SUPI Leakage Attack (`supi_leaked`)
+This lemma demonstrates that SUPI is leaked under certain attack conditions.
+
+![SUPI Leakage Detected](images/supi_leaked_result.png)
+
+---
+
+### No Leakage Under Ideal Conditions (`no_leak_of_supi`)
+This lemma proves that, under ideal conditions, SUPI is **not leaked**, confirming secrecy.
+
+![No Leak of SUPI](images/no_leak_of_supi_result.png)
+
+---
+
+### Injective Agreement Verification (`injective_commit_to_running`)
+This lemma proves that a `Commit` from the UE corresponds uniquely to a `Running` session at the SEAF.
+
+![Injective Agreement Verified](images/injective_commit_to_running_result.png)
+
