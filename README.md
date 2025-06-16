@@ -57,7 +57,7 @@ To run the formal verification models in this repository, the following tools an
 ```
 5G-Formal-Verification-Nour-Hmeedan/
 ├── 5G_AKA_fix.spthy                     # Original model
-├── 5G_AKA_fix_nour_attack.spthy        # Your modified version
+├── 5G_AKA_fix_nour_attack.spthy        # my modified version
 ├── images/                             # Screenshots of lemmas and rules
 │   ├── added_rules.png
 │   ├── injective_commit_to_running_lemma.png
